@@ -1,0 +1,38 @@
+# Data and models
+data/
+models/
+my_audio/
+my_output/
+my_output_redimnet/
+redimnet_output_combined/
+redimnet_evaluation_combined/
+evaluation_results/
+
+# Large files
+*.rttm
+*.wav
+*.mp3
+
+# Logs and output files
+*.o*
+*.eval
+*.log
+logs/
+
+# Cache and temporary files
+__pycache__/
+*.py[cod]
+.python-version
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# External dependencies (should be installed via pip)
+diarizen/
+pyannote-audio/
+
+# Backup files
+*.save
+*_backup*
